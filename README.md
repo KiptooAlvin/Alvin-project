@@ -1,65 +1,66 @@
-🌸 1. Iris Clustering
+# 📘 Machine Learning Notebooks
 
-File: Iris_Clustering.ipynb
+This repository contains two Jupyter Notebooks demonstrating clustering and environmental data analysis using Python. Each notebook walks through data preprocessing, exploration, model development, and evaluation.
 
-Objective:
-To explore and cluster the famous Iris flower dataset based on its sepal and petal measurements using unsupervised learning techniques.
+---
 
-Key Steps:
+## 🌸 1. Iris Clustering
 
-Load and clean the Iris dataset.
+**File:** `Iris_Clustering.ipynb`
 
-Perform exploratory data analysis (EDA) to visualize relationships between features.
+### 🎯 Objective
+To explore and cluster the famous *Iris flower dataset* using unsupervised learning techniques to uncover natural groupings based on petal and sepal measurements.
 
-Apply clustering algorithms:
+### 🧩 Key Steps
+- Load and preprocess the Iris dataset.  
+- Perform exploratory data analysis (EDA) using visualizations.  
+- Apply clustering algorithms:
+  - **K-Means Clustering**
+  - **Hierarchical Clustering**
+- Visualize clusters using scatter plots and dendrograms.  
+- Evaluate clustering quality using the **silhouette score**.  
+- Compare clusters with the actual Iris species labels.
 
-K-Means Clustering
+### 💡 Insights
+K-Means formed clearer and more distinct clusters compared to hierarchical clustering.  
+The results closely matched the true Iris species, indicating that K-Means effectively captures the dataset's structure.
 
-Hierarchical Clustering
+---
 
-Visualize clusters using scatter plots and dendrograms.
+## 🌍 2. Urban Air Pollution Challenge
 
-Evaluate performance using silhouette scores.
+**File:** `urban_air_pollution.ipynb`
 
-Compare the clustering output with the actual species to assess accuracy.
+### 🎯 Objective
+To analyze and cluster global air pollution data and evaluate the model’s performance through a public leaderboard.
 
-Main Insight:
-K-Means provided clearer cluster separation and higher silhouette scores, making it more suitable for this dataset.
+### 🧩 Key Steps
+- Data cleaning and preprocessing of air pollutant measurements.  
+- Exploratory analysis to understand patterns and correlations.  
+- Apply machine learning techniques:
+  - **K-Means Clustering**
+  - **Agglomerative Clustering**
+  - **Random Forest** as a baseline classification model.  
+- Evaluate results based on leaderboard ranking.
 
-🌍 2. Urban Air Pollution Challenge
+### 🏆 Results
+- **Leaderboard Rank:** 372 out of 1582 participants.  
+- Discovered distinct patterns in pollutant magnitudes and meteorological factors.  
+- Demonstrated strong performance despite being an individual submission.
 
-File: urban_air_pollution.ipynb
+### 💡 Reflection
+This project reinforced clustering concepts and model evaluation skills. Future improvements could involve deeper feature engineering and ensemble modeling to improve accuracy.
 
-Objective:
-To analyze and cluster global air pollution data to identify pollution patterns and compare against a leaderboard score.
+---
 
-Key Steps:
+## 🧰 Technologies Used
+- **Python**
+- **Pandas**, **NumPy**
+- **Matplotlib**, **Seaborn**
+- **Scikit-learn**
+- **Jupyter Notebook**
+- ** Google Colab**
 
-Data preprocessing and cleaning of pollutant measurements.
+---
 
-Apply clustering algorithms such as K-Means and Agglomerative Clustering.
 
-Use Random Forest as a baseline model for classification or ranking.
-
-Evaluate performance based on a public leaderboard.
-
-Results:
-
-Leaderboard rank: 372 out of 1582 participants.
-
-The model revealed patterns in pollutant magnitudes and meteorological variables, highlighting distinct pollution zones.
-
-Reflection:
-Although done solo, the project demonstrated effective use of clustering and model evaluation. Future work could include feature engineering and advanced ensemble methods to improve ranking.
-
-🧰 Technologies Used
-
-Python
-
-NumPy, Pandas
-
-Scikit-learn
-
-Matplotlib, Seaborn
-
-Google Colab
