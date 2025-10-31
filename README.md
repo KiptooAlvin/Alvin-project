@@ -59,7 +59,7 @@ This project reinforced clustering concepts and model evaluation skills. Future 
 - **Matplotlib**, **Seaborn**
 - **Scikit-learn**
 - **Jupyter Notebook**
-- ** Google Colab**
+
 
 ---
 
